@@ -14,11 +14,12 @@ Reinforcement Learning from Human Feedback (RLHF) is a machine learning paradigm
 
 The architectural progression of RLHF reflects a steady structural push away from heavy multi-model computational pipelines toward streamlined direct preference functions and token-level optimization loops.
 
+```mermaid
 flowchart LR
     A["Classic RLHF (PPO, 2019/2022)<br/>(Actor-Critic VRAM Bottleneck)"]
     --> B["Direct Preference (DPO, 2023)<br/>(Static Data Direct Tuning)"]
     --> C["Online & Hybrid RL (RLEF / RLAIF, 2024+)<br/>(Dynamic Scaled Self-Correction)"]
-
+```
 
 | Phase / Variant | Concept / Behavior | Significance / Limitations | Year | Paper Link |
 |---|---|---|---|---|
